@@ -1,1 +1,1 @@
-# rpg-ddg
+# The Boring Game
