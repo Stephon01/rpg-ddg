@@ -1,0 +1,10 @@
+for armour in Armour_peace:
+    print(Armour_peace[armour])
+
+for armour1 in Armour_piece:
+    print(Armour_piece[armour1])
+    for armour in Armour_peace:
+        print(slot1)
+        for b in Armour_peace[slot1]:
+                Armour_peace = Armour_peace[slot1][b]
+                print(f"{armour}\n")
