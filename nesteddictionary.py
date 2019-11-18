@@ -45,13 +45,13 @@ for item in Weapons:
         weapon =  Weapons[item][x]
         print(f"{weapon}\n")
 
-
+#print statmenent
 for armour in Armour_peace:
     print(armour)
     b = Armour_peace[armour]
     print(f"{b}\n")
 
-
+#print statements
 for armour1 in Armour_piece:
     print(armour1)
     y = Armour_piece[armour1]
