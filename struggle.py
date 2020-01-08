@@ -13,26 +13,27 @@ def menu():
     if action == 'move':
         for move in directions:
             print(move)
-    move_input = input("Which direction do you want to go?")
-    if move_input == "north":
+        move_input = input("Which direction do you want to go?")
+        if move_input == "north":
             print("Going North!")
             menu()
-    elif move_input == "south":
+        elif move_input == "south":
             print("Going South!")
             menu()
-    elif move_input == "east":
+        elif move_input == "east":
             print("Going east!")
             menu()
-    elif move_input == "west":
+        elif move_input == "west":
             print("Going west!")
             menu()
-    elif move_input == "back":
+        elif move_input == "back":
             print("going back")
             menu()
-    else:
+        else:
             print("Invalid input")
+            menu()
     # inventory screen
-    if action == "inventory":
+    elif action == "inventory":
         for inventory in inv:
             print(inventory)
         inventory_input = input("what item would you like to equip?")
@@ -50,5 +51,9 @@ def menu():
             menu()
         else:
             print("Invalid input")
+            menu()
+    else:
+        print("Invalid input")
+        menu()
 # menu call
 menu()
